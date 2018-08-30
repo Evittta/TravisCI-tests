@@ -1,4 +1,4 @@
-const task1 = require(`./../task1-argv`);
+const task1 = require(`./../tasks/task1-argv`);
 
 describe(`Task 1`, () => {
   it(`should return num, where 4^num < param`, () => {

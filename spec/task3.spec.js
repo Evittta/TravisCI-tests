@@ -1,4 +1,4 @@
-const getPairOfNumbers = require(`./../task3-argv`);
+const getPairOfNumbers = require(`./../tasks/task3-argv`);
 
 describe(`Task3`, () => {
   it(`should return all pair of numbers, where x^2 + y^2 = param`, () => {

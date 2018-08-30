@@ -1,4 +1,4 @@
-const getNumbers = require('./../task2-argv');
+const getNumbers = require('./../tasks/task2-argv');
 
 describe('Task2', () => {
   it('should get numbers, where numbers x^2 + y^2 = param', () => {
