@@ -23,7 +23,7 @@ const getParams = () => {
     output: process.stdout
   });
   rl.question('Please input natural number bigger than 0 > ', num => {
-    console.log(getPairOfNumbers(Number(num)));
+    getPairOfNumbers(Number(num));
     rl.close();
   });
 };

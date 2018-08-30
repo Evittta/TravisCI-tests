@@ -17,4 +17,4 @@ const getNumbers = num => {
 };
 
 module.exports = getNumbers;
-console.log(getNumbers(Number(process.argv[2])));
+getNumbers(Number(process.argv[2]));

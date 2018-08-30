@@ -30,7 +30,7 @@ const getParams = () => {
     }
     rl.prompt();
   }).on('close', () => {
-    console.log(formResult(params));
+    formResult(params);
     process.exit(0);
   });
 };

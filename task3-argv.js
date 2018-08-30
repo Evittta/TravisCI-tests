@@ -16,4 +16,5 @@ const getPairOfNumbers = num => {
 };
 
 module.exports = getPairOfNumbers;
-console.log(getPairOfNumbers(Number(process.argv[2])));
+
+getPairOfNumbers(Number(process.argv[2]));
